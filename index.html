@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishesh Patel | Data Science Portfolio</title>
+  <meta name="description" content="Data science & analytics portfolio: real projects with GitHub code, Tableau dashboards, and Kaggle datasets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-row">
+    <a class="brand" href="#top">VP</a>
+    <nav class="links">
+      <a href="#projects">Projects</a>
+      <a href="#viz">Visualizations</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero container">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="accent">Vishesh Patel</span></h1>
+      <p class="subtitle">Data Science & Machine Learning • Real‑world analytics and automation</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn ghost" href="https://github.com/Vishesh-Patel-data" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://www.kaggle.com/visheshptel" target="_blank" rel="noopener">Kaggle</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/visheshpatel/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="note">Featuring: CT property web scraper, price‑prediction dataset, IoT & NLP projects, and Tableau dashboards.</p>
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <h2>About</h2>
+    <p>
+      I turn raw data into decisions. My work spans data collection (web scraping & APIs), data engineering, and ML models that explain and predict. 
+      I value clarity, reproducibility, and ethical AI. Currently finishing my M.S. in Data Science (Dec 2025).
+    </p>
+  </section>
+
+  <section class="projects container" id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>CT Property Price Prediction Dataset & Scraper</h3>
+        <p>
+          Python web scraper that collects real property data from the official 
+          <a href="https://www.vgsi.com/connecticut-online-database/" target="_blank" rel="noopener">VGSI Connecticut Online Database</a>.
+          Includes historical sales (price & date), ownership and attributes for Bridgeport & Fairfield — ideal for ML price prediction.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Pandas</span><span>BeautifulSoup</span><span>GitHub</span>
+        </div>
+        <div class="actions">
+          <a class="btn small" href="https://github.com/Vishesh-Patel-data/web_scraper_notebook_repo" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn small" href="https://www.kaggle.com/visheshptel" target="_blank" rel="noopener">Kaggle</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>IoT Smart Garden — Watering Need Prediction</h3>
+        <p>
+          End‑to‑end ML pipeline using sensor data (soil moisture, humidity, temp) to predict when plants need watering. Feature engineering + classification metrics.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>scikit‑learn</span><span>EDA</span>
+        </div>
+        <div class="actions">
+          <a class="btn small" href="#" target="_blank" rel="noopener">GitHub (add)</a>
+          <a class="btn small ghost" href="#" target="_blank" rel="noopener">Demo</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Twitter Sentiment Analysis</h3>
+        <p>
+          NLP pipeline on social posts — text cleaning, vectorization, and model comparison for sentiment classification.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>NLP</span><span>scikit‑learn</span>
+        </div>
+        <div class="actions">
+          <a class="btn small" href="https://github.com/Vishesh-Patel-data/twitter_sentiment_using_csv_data" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="viz container" id="viz">
+    <h2>Visualizations</h2>
+    <p>Replace these with your Tableau Public embeds.</p>
+    <div class="viz-grid">
+      <div class="viz-embed">
+        <iframe src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms?:showVizHome=no&:embed=y" frameborder="0"></iframe>
+        <p class="viz-caption">Example: Real‑Estate Trends (replace)</p>
+      </div>
+      <div class="viz-embed">
+        <iframe src="https://public.tableau.com/views/RegionalSampleWorkbook/Flights?:showVizHome=no&:embed=y" frameborder="0"></iframe>
+        <p class="viz-caption">Example: Sales Forecast (replace)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills container" id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python, R, SQL</li>
+      <li>Pandas, scikit‑learn, TensorFlow (basics)</li>
+      <li>BeautifulSoup, requests, APIs</li>
+      <li>Tableau, Power BI</li>
+      <li>Git, GitHub, Netlify</li>
+    </ul>
+  </section>
+
+  <section class="contact container" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:visheshpatel.ds@gmail.com">visheshpatel.ds@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/visheshpatel/" target="_blank" rel="noopener">linkedin.com/in/visheshpatel</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Vishesh Patel · Built for data & ML portfolio</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
